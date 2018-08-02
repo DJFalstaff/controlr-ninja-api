@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
+using Serilog;
 
-namespace controlr_ninja_api.Controllers
+namespace controlr.ninja.api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -14,7 +12,12 @@ namespace controlr_ninja_api.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "value1", "value2" };
+            Log.Information("Log: Log.Information");
+            Log.Warning("Log: Log.Warning");
+            Log.Error("Log: Log.Error");
+            Log.Fatal("Log: Log.Fatal");
+
+            return new[] { "Hello,Cleveland!" };
         }
 
         // GET api/values/5
