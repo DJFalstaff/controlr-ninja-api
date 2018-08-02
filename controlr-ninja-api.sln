@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "controlr-ninja-api", "controlr-ninja-api\controlr-ninja-api.csproj", "{B5F0E142-606D-4D4E-8D21-A37E50C27F04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "controlr-ninja-api", "controlr-ninja-api\controlr-ninja-api.csproj", "{B5F0E142-606D-4D4E-8D21-A37E50C27F04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{CB2AF61E-0656-42D1-9521-4FC02D5B9BE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{4468B783-22D9-4B6F-81A2-B7D4D609A474}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +22,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B5F0E142-606D-4D4E-8D21-A37E50C27F04} = {CB2AF61E-0656-42D1-9521-4FC02D5B9BE8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F8DDF832-8FC9-498C-80B4-0F3A01720726}
