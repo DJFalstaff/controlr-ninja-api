@@ -35,7 +35,7 @@ namespace controlr.ninja.api
 
             webhost.Build().Run();
 
-          //  CreateWebHostBuilder(args).Build().Run();
+          //  comment test
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
