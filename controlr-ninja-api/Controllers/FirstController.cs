@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace controlr_ninja_api.Controllers
+namespace controlr.ninja.api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
